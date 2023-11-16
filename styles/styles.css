@@ -254,7 +254,6 @@ section {
   line-height: 2rem;
   padding: 1rem;
   color: var(--color-gray1);
-  font-size: 1.3rem;
 }
 .about-container .left-about h4 {
   font-size: 2rem;
@@ -384,6 +383,11 @@ section {
 }
 .timeline .timeline-item p {
   color: var(--color-gray2);
+}
+
+.port-content {
+  text-align: center;
+  padding: 2rem 0;
 }
 
 .port-text {
@@ -699,7 +703,7 @@ section {
     font-size: 2.5rem;
   }
   .main-title h2 .bg-text {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .controlls {
     top: auto;
