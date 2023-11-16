@@ -33,11 +33,6 @@ function PageTransitions() {
         }
     })
     // Toggle theme
-    // const themebtn = document.querySelector('.theme-btn');
-    // themebtn.addEventListener('click', function() {
-    //     let element = document.body;
-    //     element.classList.toggle('light-mode')
-    // })
     const themebtn = document.querySelector('.theme-btn');
     const element = document.body;
 
@@ -63,13 +58,15 @@ function PageTransitions() {
 
 PageTransitions();
 
+
+//Auto type
 document.addEventListener('DOMContentLoaded', function (){
     const typedTextElement = document.getElementById('typed-text');
 
     const options = {
-        strings: ['I am a Web Developer', 'I love watching movies/series', 'I love code more'],
-        typeSpeed: 50,
-        backSpeed: 55,
+        strings: ['I am a Web Developer', 'I love watching movies/series', 'I love to code more'],
+        typeSpeed: 60,
+        backSpeed: 65,
         backDelay: 1000,
         startDelay: 500,
         loop: true,
