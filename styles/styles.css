@@ -89,10 +89,10 @@ section {
 }
 @keyframes scaleAnim {
   0% {
-    transform: translateY(-100%) scaleY(0);
+    transform: translateX(-100%) scaleX(0);
   }
   100% {
-    transform: translateY(0) scaleY(1);
+    transform: translateX(0) scaleX(1);
   }
 }
 
@@ -661,6 +661,9 @@ section {
   .about-container .right-about {
     grid-template-columns: 1fr;
     padding-top: 2.5rem;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    transform: translateX(100px);
   }
   .about-container .left-about {
     padding-right: 0;
@@ -671,6 +674,11 @@ section {
   .timeline {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
+  }
+  .about-stats {
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    transform: translateY(100px);
   }
   .about-stats .progress-bars {
     grid-template-columns: 1fr;

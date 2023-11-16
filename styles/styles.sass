@@ -85,10 +85,10 @@ section
     animation: scaleAnim 1s ease-in-out
     @keyframes scaleAnim 
         0%
-            transform: translateY(-100%) scaleY(0)
+            transform: translateX(-100%) scaleX(0)
         
         100%
-            transform: translateY(0) scaleY(1)
+            transform: translateX(0) scaleX(1)
         
     
 
@@ -661,6 +661,9 @@ section
         .right-about
             grid-template-columns: 1fr
             padding-top: 2.5rem
+            opacity: 0
+            transition: all 1s ease-in-out
+            transform: translateX(100px)
         .left-about
             padding-right: 0
             p
@@ -672,6 +675,9 @@ section
         padding-bottom: 6rem
 
     .about-stats
+        opacity: 0
+        transition: all 1s ease-in-out
+        transform: translateY(100px)
         .progress-bars
             grid-template-columns: 1fr
 

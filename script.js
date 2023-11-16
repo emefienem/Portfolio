@@ -74,3 +74,25 @@ document.addEventListener('DOMContentLoaded', function (){
 
     const typed = new Typed(typedTextElement, options)
 })
+
+window.addEventListener('scroll', () => {
+    const hiddenContent = document.querySelector('.right-about')
+    const container = document.querySelector('.communicate')
+    const containHeight = container.clientHeight;
+    const scrollY = window.scrollY;
+
+    if(scrollY >= containHeight) {
+        hiddenContent.style.opacity = 1;
+        hiddenContent.style.transform = 'translateX(0)'
+    }
+
+    const aboutContent = document.querySelector('.about-stats')
+    const containerA = document.querySelector('.right-about')
+    const containAHeight = containerA.clientHeight;
+    const scrollAY = window.scrollY;
+
+    if(scrollAY >= containAHeight) {
+        aboutContent.style.opacity = 1;
+        aboutContent.style.transform = 'translateY(0)'
+    }
+})
