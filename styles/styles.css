@@ -30,7 +30,7 @@
 
 body {
   background-color: var(--color-primary);
-  font-family: "Poppins" sans-serif;
+  font-family: "Montserrat" sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
@@ -388,6 +388,8 @@ section {
 .port-content {
   text-align: center;
   padding: 2rem 0;
+  color: var(--color-secondary);
+  font-size: 2rem;
 }
 
 .port-text {
@@ -558,6 +560,19 @@ section {
 .contact-content-con .right-contact .submit-btn {
   display: flex;
   justify-content: flex-start;
+}
+
+.submit-contact {
+  background: transparent;
+  margin: 1.3rem;
+  padding: 0.8rem 1.8rem;
+  border: 1px solid var(--color-secondary);
+  color: var(--color-white);
+  font-size: 1.2rem;
+}
+.submit-contact:hover {
+  background-color: var(--color-secondary);
+  transition: all 0.4s ease-in-out;
 }
 
 .communicate {
