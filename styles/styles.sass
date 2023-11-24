@@ -647,7 +647,7 @@ section
         
     
 
-@media screen and (max-width: 600px) 
+@media screen and (max-width: 799px) 
     header
         padding: 0
     
@@ -702,6 +702,19 @@ section
     .portfolios
         grid-template-columns: 1fr
         padding-bottom: 6rem
+        .portfolio-item
+            position: relative
+            border-radius: 15px
+            img
+                display: flex
+                justify-content: center
+                align-content: center
+                width: 80%
+                height: 300px
+                object-fit: cover
+                border-radius: 15px
+                margin-left: .7rem
+
 
     
     .contact-content-con
@@ -709,6 +722,12 @@ section
         .right-contact
             margin-left: 0
             margin-top: 2.5rem
+        .left-contact
+            .contact-info
+                .contact-item
+                    display: block
+                    align-items: center
+                    justify-content: space-between
 
     .contact-content-con .right-contact .i-c-2
         flex-direction: column

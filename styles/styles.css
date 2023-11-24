@@ -30,7 +30,7 @@
 
 body {
   background-color: var(--color-primary);
-  font-family: "Montserrat" sans-serif;
+  font-family: "Roboto" sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
   transition: all 0.4s ease-in-out;
@@ -313,6 +313,9 @@ section {
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .sass {
   width: 90%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .mui {
+  width: 70%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .tw {
   width: 80%;
@@ -644,7 +647,7 @@ section {
   font-size: 6rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 799px) {
   header {
     padding: 0;
   }
@@ -703,12 +706,32 @@ section {
     grid-template-columns: 1fr;
     padding-bottom: 6rem;
   }
+  .portfolios .portfolio-item {
+    position: relative;
+    border-radius: 15px;
+  }
+  .portfolios .portfolio-item img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
+    height: 300px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 15px;
+    margin-left: 0.7rem;
+  }
   .contact-content-con {
     flex-direction: column;
   }
   .contact-content-con .right-contact {
     margin-left: 0;
     margin-top: 2.5rem;
+  }
+  .contact-content-con .left-contact .contact-info .contact-item {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
   }
   .contact-content-con .right-contact .i-c-2 {
     flex-direction: column;
