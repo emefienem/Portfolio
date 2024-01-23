@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function (){
     const typedTextElement = document.getElementById('typed-text');
 
     const options = {
-        strings: ['I am a Web Developer', 'I love watching movies/series', 'I love to code more'],
+        strings: ['I am a Software Developer', 'I love watching movies/series', 'I love to code more'],
         typeSpeed: 60,
         backSpeed: 65,
         backDelay: 1000,
