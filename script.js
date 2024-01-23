@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
     strings: [
       "I am a Software Developer",
       "Turning coffee into code",
-      "404 SLEEP NOT FOUND",
+      "'404 SLEEP NOT FOUND'",
     ],
     typeSpeed: 60,
     backSpeed: 65,
