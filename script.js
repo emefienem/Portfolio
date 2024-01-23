@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const options = {
     strings: [
       "I am a Software Developer",
-      "Turning coffee into code",
+      "Turning coffee into code is my hobby",
       "'404 SLEEP NOT FOUND'",
     ],
     typeSpeed: 60,
