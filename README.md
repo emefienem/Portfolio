@@ -26,21 +26,21 @@ In this section, you'll find a selection of projects that I've worked on. These 
 - **Technologies Used**: React and MaterialUI
 - **[Link to Project] https://youtube-clone-emefienem.vercel.app**
 
+### [Decentraland Clonne]
+
+- **Description**: A Clone website to the original 'www.decentraland.org'
+- **Technologies Used**: Next.js, Tailwind.css, Firebase
+- **[Link to Project] https://women-clothing-emefienem.vercel.app**
+
 ### [Burger Website]
 
 - **Description**: A Progressive Web Application(PWA) where you can buy food specifically burgers, add to cart functionality
 - **Technologies Used**: HTML, CSS and Vanilla JavaScript
 - **[Link to Project] https://burger-website-emefienem.vercel.app**
 
-### [EnrobeByChi Clothing]
-
-- **Description**: A website for women clothes, also has add to cart functionality
-- **Technologies Used**: HTML, CSS and Vanilla JavaScript
-- **[Link to Project] https://women-clothing-emefienem.vercel.app**
-
 ## Skills
-**Technical Skills**: HTML, CSS, JavaScript and Node
-**Tools & Frameworks**: Vs Code, Express.js, React, MongoDB, TailWind.Css, Material-UI, PostMan
+**Technical Skills**: HTML, CSS, JavaScript, TypeScript and Node
+**Tools & Frameworks**: Vs Code, Express.js, React, Next.js, MongoDB, Firebase, TailWind.Css, Material-UI, PostMan
 
 ## Education
 Currently pursuing a B.sc degree in Computer Science at Lagos State University
