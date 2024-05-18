@@ -26,7 +26,7 @@ In this section, you'll find a selection of projects that I've worked on. These 
 - **Technologies Used**: React and MaterialUI
 - **[Link to Project] https://youtube-clone-emefienem.vercel.app**
 
-### [Decentraland Clonne]
+### [Decentraland Clone]
 
 - **Description**: A Clone website to the original 'www.decentraland.org'
 - **Technologies Used**: Next.js, Tailwind.css, Firebase
